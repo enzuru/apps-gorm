@@ -28,6 +28,7 @@
 #include <GormCore/GormCore.h>
 
 #include <GNUstepGUI/GSXibLoading.h>
+#include <GNUstepGUI/GSXib5KeyedUnarchiver.h>
 
 @interface GormXibWrapperLoader : GormWrapperLoader
 {

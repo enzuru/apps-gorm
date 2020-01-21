@@ -76,13 +76,13 @@
 	  else
 	    {
               NSEnumerator *en;
-              GSXibKeyedUnarchiver *u;
+              GSXib5KeyedUnarchiver *u;
 	      //
 	      // Create an unarchiver, and use it to unarchive the gorm file while
 	      // handling class replacement so that standard objects understood
 	      // by the gui library are converted to their Gorm internal equivalents.
 	      //
-	      u = [[GSXibKeyedUnarchiver alloc] initForReadingWithData: data];
+	      u = [[GSXib5KeyedUnarchiver alloc] initForReadingWithData: data];
               if (u != nil)
                 {
                   [u setDelegate: self];
