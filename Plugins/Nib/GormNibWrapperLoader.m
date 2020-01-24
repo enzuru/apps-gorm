@@ -138,6 +138,9 @@
 	       */
 
 	      u = [[NSKeyedUnarchiver alloc] initForReadingWithData: data];
+              if (u == nil)
+                return NO;
+              
 	      [u setDelegate: self];
 	      
 	      /*
